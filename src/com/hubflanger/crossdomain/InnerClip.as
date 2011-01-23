@@ -1,0 +1,1 @@
+﻿package com.hubflanger.crossdomain{	import flash.text.TextField;		import flash.display.MovieClip;		public class InnerClip extends MovieClip	{		public var myText2:TextField;				public function InnerClip()		{			//		}		public function sayInnerHello( str:String ):void		{			myText2.text = str;		}	}}
